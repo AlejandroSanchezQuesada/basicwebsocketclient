@@ -1,14 +1,16 @@
 import React from 'react';
-import { Chat } from './components/Chat/Chat';
+import { Home } from './components/Home/Home';
+
+/* Bootstrap Components */
+import { Container } from 'react-bootstrap';
+
 const App = () => {
 
 
   return (
-    <div>
-      <h1>Paco Chat</h1>
-      <h1>--------------</h1>
-      <Chat></Chat>
-    </div>
+    <Container>
+      <Home></Home>
+    </Container>
   );
 }
 

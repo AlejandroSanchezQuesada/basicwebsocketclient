@@ -36,12 +36,11 @@ export const Chat = () => {
     }
     return (
         <div>
-            <h1>Chat</h1>
-            <ul>
+            <div>
                 {listMessages.map((message, index) => {
                     return <li key={index}>{message}</li>
                 })}
-            </ul>
+            </div>
             <form onSubmit={handleSubmit}>
                 <input type="text" value={user} onChange={e => setUser(e.target.value)} defaultValue={"Usuario"} />
                 <input type="text" value={inputMessage} onChange={e => setInputMessage(e.target.value)} />

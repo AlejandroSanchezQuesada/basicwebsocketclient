@@ -2,7 +2,6 @@ import React from "react";
 import { Chat } from "../Chat/Chat";
 
 
-
 export const Home = () => {
     return (
         <div>

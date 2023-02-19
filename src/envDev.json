@@ -1,0 +1,5 @@
+
+{
+    "SOCKET_URL": "http://localhost:8085/chatspring",
+    "AXIOS_API_URL": "http://localhost:8085"
+}

@@ -20,7 +20,7 @@ export const WebSocketConnection = (props) => {
       url={SOCKET_URL}
       topics={['/topic/message']}
       onConnect={onConnected}
-      onDisconnect={console.log("Disconnected!")}
+      /* onDisconnect={console.log("Disconnected!")} */
       onMessage={(msg) => onMessageReceived(msg)}
       debug={false}
     />

@@ -1,0 +1,53 @@
+
+/* Submit style darker */
+
+.chat__submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  border: 1px black solid;
+}
+
+/* Chat box fixed height 60vh and list scrollable */
+
+.chat__box {
+  height: 60vh;
+  width: 100%;
+  overflow-y: scroll;
+  border: 1px black solid;
+}
+
+/* Chat sending box fixed on bottom 20vh inside the col */
+.chat__sending {
+  height: 20vh;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  }
+  
+  /* Chat sending form */
+  .chat__form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .chat__input {
+  flex: 1;
+  margin-right: 10px;
+  }
+  
+  .chat__submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
